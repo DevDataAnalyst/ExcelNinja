@@ -1,0 +1,19 @@
+1. Copy the code
+2. Open MS Word
+3. View tab -> Macros button -> "View Macros" option
+4. Write a dummy Macros name. E.g. test
+5. Choose "Normal.dotm (Global template)"
+6. Click on "Create" button
+7. Delete the dummy Macros
+8. Paste the code of Step 1 above. 
+9. Code automatically saved.
+10. Close the Macros window.
+11. Go to QAT (top left corner of the window)
+12. Choose "More Commands"
+13. Choose "Macros" instead of "Popular Commands"
+14. Choose our Macro (NoMoreDeleteSpace)
+15. Click on the button "Add"
+16. Click on "Modify" to choose the icon. Press OK.
+
+17. Keep cursor at the beginning of the document (Ctrl Home)
+18. Click on the Macros icon

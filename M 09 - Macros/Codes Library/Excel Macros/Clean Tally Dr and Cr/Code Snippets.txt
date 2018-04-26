@@ -1,0 +1,21 @@
+Sub CleanTallyData()
+
+'   Created by Rishabh Pugalia | www.yodalearning.com
+'   Updated 07-Jan-2017	
+
+Dim rng As Range
+Set rng = Selection
+
+For Each cell In rng
+    
+        If InStr(1, cell.NumberFormat, "Cr") > 0 Then
+        cell.Value = cell.Value * -1
+        Else
+        cell.Value = cell.Value
+        End If
+        
+        cell.NumberFormat = "General"
+   
+Next
+
+End Sub

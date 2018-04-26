@@ -1,0 +1,8 @@
+Advanced Excel Masterclass - Pre-Training Prep [9 mins]	
+	https://yodalearning.com/excel-pre-training/
+	
+Video Content:	
+	Basic Data Analysis – Sort, Filter & Pivot Table
+	Data Cleaning – Find & Replace, Text To Columns
+	Lookups & Aggregators – Vlookup, Countif, Sumif
+	Logical Statements – If

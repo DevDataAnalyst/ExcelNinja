@@ -1,0 +1,20 @@
+Updated - 16-April-2018
+------------------------------------------------------------------
+
+1.	Activate Developer Tab (File > Options > Customise Ribbon > Developer Tab check box)
+2.	Developer > Macros > Record  / Run
+3. 	Macros > Create new > Paste Codes
+4.	Sub and End Sub (Head n Tail of a Macro) ***
+
+5.	Ctrl Z doesn’t work (Excel)
+6.	3 magic words in Google – VBA CODE TO [verb] [object] [addl. logic]
+7.	FORUM – Search for the term “THANK”
+
+8.	Red Flag – “KILL”
+9.	XLSM vs XLSX
+10.	Button (Form Control) to Assign macros (click me – button)
+
+
+Notes:
+*** Sub Procedure is a task. E.g. Sub and End Sub. 
+User Defined Function (UDF) is a formula. E.g. Function and End Function

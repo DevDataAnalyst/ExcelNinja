@@ -1,0 +1,17 @@
+Sub TryThis()
+' Insert rows based on value of active cell and thereon (vertically)
+'Source: Ozgrid.com
+
+    Dim i As Integer, n As Integer, m As Long, currentCell As Range
+    Set currentCell = ActiveCell
+    Do While Not IsEmpty(currentCell)
+        n = currentCell.Value - 1
+        m = currentCell.Row
+        If n > 0 Then
+            Rows(m + 1 & ":" & m + n).Insert
+            Set currentCell = currentCell.Offset(n + 1, 0)
+        Else
+            Set currentCell = currentCell.Offset(1, 0)
+        End If
+    Loop
+End Sub

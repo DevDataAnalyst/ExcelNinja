@@ -1,0 +1,17 @@
+Sub CreateLinksToAllSheets()
+
+'creates list of worksheet names with hyperlinks
+'starts from the activcell
+'Source: https://www.get-digital-help.com/2012/07/18/create-links-to-all-sheets-in-a-workbook/
+
+Dim sh As Worksheet
+Dim cell As Range
+For Each sh In ActiveWorkbook.Worksheets
+    If ActiveSheet.Name <> sh.Name Then
+        ActiveCell.Hyperlinks.Add Anchor:=Selection, Address:="", SubAddress:= _
+        "'" & sh.Name & "'" & "!A1", TextToDisplay:=sh.Name
+        ActiveCell.Offset(1, 0).Select
+    End If
+Next sh
+End Sub
+
